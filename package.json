@@ -11,15 +11,14 @@
     "url": "https://github.com/leosingleton/eslint-config-leosingleton.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "latest",
-    "eslint": "latest",
-    "eslint-plugin-github": "latest",
-    "eslint-plugin-import": "latest",
-    "eslint-plugin-jsdoc": "latest"
+    "@typescript-eslint/parser": "latest"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "@typescript-eslint/eslint-plugin": ">= 2",
+    "eslint": ">= 3",
+    "eslint-plugin-github": ">= 3",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-jsdoc": ">= 21"
   },
   "main": "index.js"
 }
