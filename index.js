@@ -41,7 +41,6 @@ module.exports = {
     "import/no-extraneous-dependencies": ["error", { "optionalDependencies": false }],
 
     // eslint-plugin-jsdoc
-    "jsdoc/check-alignment": "error",
 
     // eslint
     "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
